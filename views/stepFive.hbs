@@ -1,0 +1,65 @@
+{{> header}}
+<body>
+{{> primaryNav}}
+
+  <header class="masthead2 text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5"> Complete the form below (5/5).</h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+              <form class="form-signin" action="/stepFive" method="post">
+                     
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="info">
+                                <label class="custom-control-label" for="info">Personal Information</label>
+                            </div>
+                     </div>
+               <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="plan">
+                                <label class="custom-control-label" for="plan">Business Plan Review</label>
+                            </div>
+                     </div>
+               <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="credit">
+                                <label class="custom-control-label" for="credit">Credit Check</label>
+                            </div>
+                     </div>
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="docs">
+                                <label class="custom-control-label" for="docs">Documents</label>
+                            </div>
+                     </div>
+
+                 </br>
+                   </br>
+                 <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                          <button class="btn btn-primary btn-user btn-block" type="submit">Save</button>
+                        </div>
+                        <div class="col-sm-6">
+                          <button class="btn btn-primary btn-user btn-block" type="submit">Submit</button>
+                        </div>
+                     </div>
+                     <hr>
+                  </form>
+        </div>
+      </div>
+    </div>
+  </header>
+    
+{{!-- <div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">Choose your prefered funding type.</h5>
+    <a href="#" class="btn btn-primary">Govenment Funding</a>
+        <a href="#" class="btn btn-primary">Cormecial Banks Funding</a>
+  </div>
+</div> --}}
+</body>
+  {{> footer}}

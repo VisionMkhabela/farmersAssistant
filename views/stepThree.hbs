@@ -1,0 +1,63 @@
+{{> header}}
+<body>
+{{> primaryNav}}
+
+  <header class="masthead2 text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5"> Complete the form below (3/5).</h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+              <form class="form-signin" action="/stepFour" method="get">
+                     <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                           <input name="businessName"  maxlength="100" class="form-control form-control-user" placeholder="Income In Rands"> 
+                        </div>
+                        <div class="col-sm-6">
+                           <input name="businessRegNo"  maxlength="100" class="form-control form-control-user" placeholder="Collateral">
+                        </div>
+                     </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <input name="businessTaxNo"  maxlength="100" class="form-control form-control-user" placeholder="Collateral Value (Rands)">
+                        </div>
+                    <div class="col-sm-6">
+                            <input name="finanace"  maxlength="100" class="form-control form-control-user" placeholder="Communal land">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                           <input name="date"  maxlength="100" class="form-control form-control-user" placeholder="Private Land">
+                        </div>
+                         <div class="col-sm-6">
+                           <input name="stage"  maxlength="100" class="form-control form-control-user" placeholder="Is loan payable back?">
+                        </div>
+                     </div>
+                 </br>
+                   </br>
+                 <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                          <button class="btn btn-primary btn-user btn-block" type="submit">Save</button>
+                        </div>
+                        <div class="col-sm-6">
+                          <button class="btn btn-primary btn-user btn-block" type="submit">Next</button>
+                        </div>
+                     </div>
+                     <hr>
+                  </form>
+        </div>
+      </div>
+    </div>
+  </header>
+    
+{{!-- <div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">Choose your prefered funding type.</h5>
+    <a href="#" class="btn btn-primary">Govenment Funding</a>
+        <a href="#" class="btn btn-primary">Cormecial Banks Funding</a>
+  </div>
+</div> --}}
+</body>
+  {{> footer}}

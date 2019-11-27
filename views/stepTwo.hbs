@@ -1,0 +1,80 @@
+{{> header}}
+<body>
+{{> primaryNav}}
+
+  <header class="masthead2 text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5"> Complete the form below (2/5).</h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+              <form class="form-signin" action="/stepThree" method="get">
+                     <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                           <input name="businessName"  maxlength="100" class="form-control form-control-user" placeholder="Business Name"> 
+                        </div>
+                        <div class="col-sm-6">
+                           <input name="businessRegNo"  maxlength="100" class="form-control form-control-user" placeholder="Business Reg No.">
+                        </div>
+                     </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <input name="businessTaxNo"  maxlength="100" class="form-control form-control-user" placeholder="Business Tax No.">
+                        </div>
+                    <div class="col-sm-6">
+                            <input name="finanace"  maxlength="100" class="form-control form-control-user" placeholder="Finanace Required in Rands">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                           <input name="date"  maxlength="100" class="form-control form-control-user" placeholder="Date Funding Required">
+                        </div>
+                         <div class="col-sm-6">
+                           <input name="stage"  maxlength="100" class="form-control form-control-user" placeholder="Business Stage">
+                        </div>
+                     </div>
+                     <div class="form-group row">
+                        <div class="col-sm-6">
+                           <input name="date"  maxlength="100" class="form-control form-control-user" placeholder="Farming Experince in years">
+                        </div>
+                         <div class="col-sm-6">
+                           <input name="stage"  maxlength="100" class="form-control form-control-user" placeholder="Business Phone Number">
+                        </div>
+                     </div>
+
+                      <div class="form-group row">
+                        <div class="col-sm-6">
+                           <input name="date"  maxlength="100" class="form-control form-control-user" placeholder="Business Address">
+                        </div>
+                         <div class="col-sm-6">
+                           <input name="stage"  maxlength="100" class="form-control form-control-user" placeholder="BEE Level">
+                        </div>
+                     </div>
+                       </br>
+                   </br>
+                 <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                          <button class="btn btn-primary btn-user btn-block" type="submit">Save</button>
+                        </div>
+                        <div class="col-sm-6">
+                          <button class="btn btn-primary btn-user btn-block" type="submit">Next</button>
+                        </div>
+                     </div>
+                     <hr>
+                  </form>
+        </div>
+      </div>
+    </div>
+  </header>
+    
+{{!-- <div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">Choose your prefered funding type.</h5>
+    <a href="#" class="btn btn-primary">Govenment Funding</a>
+        <a href="#" class="btn btn-primary">Cormecial Banks Funding</a>
+  </div>
+</div> --}}
+</body>
+  {{> footer}}

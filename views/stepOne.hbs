@@ -1,0 +1,65 @@
+{{> header}}
+<body>
+{{> primaryNav}}
+
+  <header class="masthead2 text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Complete the form below (1/5).</h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+              <form class="form-signin" action="/stepTwo" method="get">
+                     <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                           <input name="name"  maxlength="100" class="form-control form-control-user" placeholder="First Name"> 
+                        </div>
+                        <div class="col-sm-6">
+                           <input name="surname"  maxlength="100" class="form-control form-control-user" placeholder="Last Name">
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <input class="form-control form-control-user"  maxlength="13" type="text" id="title" name="title" placeholder="Title" >
+                     </div>
+                      <div class="form-group">
+                        <input class="form-control form-control-user"  maxlength="13" type="text" id="beeClass" name="beeClass" placeholder="BEE Classification" >
+                     </div>
+                     <div class="form-group">
+                        <input type="email" name="email"  maxlength="100" class="form-control form-control-user" placeholder="Enter Email Address..." >
+                     </div>
+                     <div class="form-group">
+                        <input type="number" name="cell"  maxlength="10" class="form-control form-control-user" placeholder="Cell Number" >
+                     </div>
+                     <div class="form-group">
+                        <input class="form-control form-control-user"  maxlength="10" type="text" id="idNumber" name="idNumber" placeholder="ID Number" >
+                     </div>
+                     <div class="form-group">
+                        <input name="password" maxlength="200" class="form-control form-control-user" placeholder="Address" >
+                     </div>
+  </br>
+                   </br>
+                    <div class="form-group row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                          <button class="btn btn-primary btn-user btn-block" type="submit">Save</button>
+                        </div>
+                        <div class="col-sm-6">
+                          <button class="btn btn-primary btn-user btn-block" type="submit">Next</button>
+                        </div>
+                     </div>
+        
+                     <hr>
+                  </form>
+        </div>
+      </div>
+    </div>
+  </header>
+{{!-- <div class="card text-center">
+  <div class="card-body">
+    <h5 class="card-title">Choose your prefered funding type.</h5>
+    <a href="#" class="btn btn-primary">Govenment Funding</a>
+        <a href="#" class="btn btn-primary">Cormecial Banks Funding</a>
+  </div>
+</div> --}}
+</body>
+  {{> footer}}
